@@ -1,0 +1,73 @@
+:root {
+  --main-font: 'Roboto', sans-serif;
+  --secondary-font: font-family: 'Raleway', sans-serif;
+  --main-color: #2196F3;
+  --black-color:#212121;
+  --white-color:#FFFFFF;
+  --address-color:#757575;
+  --description-color:#2F303A;
+  --crew-background: #F5F4FA;
+  --icon-color:#AFB1B8;
+  --border-clients:#AFB1B8;
+  --media-bgr-footer:rgba(255, 255, 255, 0.1);
+  --hover-portfolio: rgba(33, 150, 243, 0.9);
+  --header-underline-border: #ECECEC;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+p {
+  margin: 0;
+  padding: 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0 !important;
+  border: 0 !important;
+  height: 1px !important;
+  width: 1px !important;
+  overflow: hidden;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.section {
+  padding: 94px 0px;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--black-color);
+}
+
+.navigation-logo {
+  font-family: var(--secondary-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.192;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  color: var(--main-color);
+  margin-right: 93px;
+  padding: 24px 0px 25px;
+}
+
+/* ============ LOGO COLOR IN HEADER =========== */
+.header-logo {
+  color: var(--black-color);
+}
+
+.navigation {
+  display: flex;
+}
+/*# sourceMappingURL=main.css.map */

@@ -11,6 +11,7 @@
    --border-clients:#AFB1B8;
    --media-bgr-footer:rgba(255, 255, 255, 0.1);
    --hover-portfolio: rgba(33, 150, 243, 0.9);
+   --header-underline-border: #ECECEC;
 }
  
 body {
@@ -50,7 +51,7 @@ p {
 }
 
 .header {
-    border-bottom: 1px solid #ECECEC;
+    border-bottom: 1px solid var(--header-underline-border);
 }
 
 .main-text {
@@ -73,7 +74,7 @@ img {
     text-decoration: none;
 }
 
-.header .container {
+.heading .container {
     display: flex;
     align-items: center;
 }
@@ -341,7 +342,7 @@ height: 294px;
 
 
 .navigation-logo{
-font-family: 'Raleway';
+font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
 line-height: 1.192;
@@ -350,8 +351,8 @@ text-decoration: none;
 color: var(--main-color);
 margin-right: 93px;
 padding: 24px 0px 25px;
-
 }
+
 .nav-link-item,
 .mail-address {
     font-weight: 500;
@@ -896,7 +897,7 @@ color:var(--address-color);
     margin-left: 70px;
 }
 
-.header-footer {
+.heading-footer {
     display: flex;
     font-weight: 700;
     font-size: 14px;
@@ -1074,6 +1075,11 @@ color: rgba(255, 255, 255, 0.6);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
     color: var(--white-color);
+}
+
+.btn-newsletter:hover,
+.btn-newsletter:focus {
+    cursor: pointer;
 }
 
 .icon-send {

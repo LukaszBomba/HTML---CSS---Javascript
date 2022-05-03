@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,AAAC,CACF,WAAW,CAAA,qBAAC,CACZ,gBAAgB,CAAA,mCAAC,CAClB,YAAY,CAAA,QAAC,CACb,aAAa,CAAA,OAAC,CACd,aAAa,CAAA,OAAC,CACd,eAAe,CAAA,OAAC,CAChB,mBAAmB,CAAA,OAAC,CACpB,iBAAiB,CAAA,QAAC,CAClB,YAAY,CAAA,OAAC,CACb,gBAAgB,CAAA,OAAC,CACjB,kBAAkB,CAAA,wBAAC,CACnB,iBAAiB,CAAA,wBAAC,CAClB,yBAAyB,CAAA,QAAC,CAC5B,ACdD,AAAA,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,EAAE,CACF,CAAC,AAAC,CACE,MAAM,CAAE,CAAC,CACT,OAAO,CAAE,CAAC,CACb,ACVD,AAAA,gBAAgB,AAAC,CACb,QAAQ,CAAE,QAAQ,CAClB,IAAI,CAAE,wBAAwB,CAC9B,OAAO,CAAE,YAAY,CACrB,MAAM,CAAE,YAAY,CACpB,MAAM,CAAE,cAAc,CACtB,KAAK,CAAE,cAAc,CACrB,QAAQ,CAAE,MAAM,CACnB,ACRD,AAAA,UAAU,AAAC,CACP,KAAK,CAAE,MAAM,CACb,MAAM,CAAE,MAAM,CACjB,ACHD,AAAA,QAAQ,AAAC,CACL,OAAO,CAAE,QAAQ,CAEpB,ACHD,AAAA,IAAI,AAAC,CACL,WAAW,CAAE,gBAAgB,CAC7B,KAAK,CAAC,kBAAkB,CACvB,ACHD,AAAA,gBAAgB,AAAA,CAChB,WAAW,CAAE,qBAAqB,CAClC,WAAW,CAAE,GAAG,CAChB,SAAS,CAAE,IAAI,CACf,WAAW,CAAE,KAAK,CAClB,cAAc,CAAE,MAAM,CACtB,eAAe,CAAE,IAAI,CACrB,KAAK,CAAE,iBAAiB,CACxB,YAAY,CAAE,IAAI,CAClB,OAAO,CAAE,aAAa,CACrB,AAID,AAAA,YAAY,AAAC,CACT,KAAK,CAAE,kBAAkB,CAC5B,AChBD,AAAA,WAAW,AAAC,CACR,OAAO,CAAE,IAAI,CAChB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/utils/_margin-padding-reset.scss",
+        "../sass/utils/_visually-hidden.scss",
+        "../sass/components/_container.scss",
+        "../sass/components/_section.scss",
+        "../sass/components/_body.scss",
+        "../sass/components/_logo-header.scss",
+        "../sass/components/_navigation-header.scss"
+    ],
+    "names": [],
+    "file": "main.min.css"
+}

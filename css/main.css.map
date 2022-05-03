@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "ACAA,AAAA,KAAK,CAAC;EACF,WAAW,CAAA,qBAAC;EACZ,gBAAgB,CAAA,mCAAC;EAClB,YAAY,CAAA,QAAC;EACb,aAAa,CAAA,OAAC;EACd,aAAa,CAAA,OAAC;EACd,eAAe,CAAA,OAAC;EAChB,mBAAmB,CAAA,OAAC;EACpB,iBAAiB,CAAA,QAAC;EAClB,YAAY,CAAA,OAAC;EACb,gBAAgB,CAAA,OAAC;EACjB,kBAAkB,CAAA,wBAAC;EACnB,iBAAiB,CAAA,wBAAC;EAClB,yBAAyB,CAAA,QAAC;CAC5B;;ACdD,AAAA,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,EAAE;AACF,CAAC,CAAC;EACE,MAAM,EAAE,CAAC;EACT,OAAO,EAAE,CAAC;CACb;;ACVD,AAAA,gBAAgB,CAAC;EACb,QAAQ,EAAE,QAAQ;EAClB,IAAI,EAAE,wBAAwB;EAC9B,OAAO,EAAE,YAAY;EACrB,MAAM,EAAE,YAAY;EACpB,MAAM,EAAE,cAAc;EACtB,KAAK,EAAE,cAAc;EACrB,QAAQ,EAAE,MAAM;CACnB;;ACRD,AAAA,UAAU,CAAC;EACP,KAAK,EAAE,MAAM;EACb,MAAM,EAAE,MAAM;CACjB;;ACHD,AAAA,QAAQ,CAAC;EACL,OAAO,EAAE,QAAQ;CAEpB;;ACHD,AAAA,IAAI,CAAC;EACL,WAAW,EAAE,gBAAgB;EAC7B,KAAK,EAAC,kBAAkB;CACvB;;ACHD,AAAA,gBAAgB,CAAA;EAChB,WAAW,EAAE,qBAAqB;EAClC,WAAW,EAAE,GAAG;EAChB,SAAS,EAAE,IAAI;EACf,WAAW,EAAE,KAAK;EAClB,cAAc,EAAE,MAAM;EACtB,eAAe,EAAE,IAAI;EACrB,KAAK,EAAE,iBAAiB;EACxB,YAAY,EAAE,IAAI;EAClB,OAAO,EAAE,aAAa;CACrB;;AAED,mDAAmD;AAEnD,AAAA,YAAY,CAAC;EACT,KAAK,EAAE,kBAAkB;CAC5B;;AChBD,AAAA,WAAW,CAAC;EACR,OAAO,EAAE,IAAI;CAChB",
+    "sources": [
+        "../sass/main.scss",
+        "../sass/utils/_variables.scss",
+        "../sass/utils/_margin-padding-reset.scss",
+        "../sass/utils/_visually-hidden.scss",
+        "../sass/components/_container.scss",
+        "../sass/components/_section.scss",
+        "../sass/components/_body.scss",
+        "../sass/components/_logo-header.scss",
+        "../sass/components/_navigation-header.scss"
+    ],
+    "names": [],
+    "file": "main.css"
+}
