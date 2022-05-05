@@ -8,7 +8,7 @@
         "../sass/utils/_visually-hidden.scss",
         "../sass/components/_container.scss",
         "../sass/components/_section.scss",
-        "../sass/components/_body.scss",
+        "../sass/utils/_body.scss",
         "../sass/components/_logo-header.scss",
         "../sass/components/_navigation-header.scss"
     ],
