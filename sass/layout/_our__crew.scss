@@ -1,0 +1,86 @@
+.section-gallery {
+     padding: 94px 0px;
+    background-color:var(--crew-background);
+    display:block
+}
+
+.gallery {
+    display: flex;
+    justify-content: center;
+}
+
+.gallery-list {
+    display: block;
+    background-color: var(--white-color);
+    list-style-type:none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
+ 0px 1px 1px rgba(0, 0, 0, 0.14),
+  0px 2px 1px rgba(0, 0, 0, 0.2);
+border-radius: 0px 0px 4px 4px;
+    width: 270px;
+    height: 428px
+}
+
+.gallery-list:not(:last-child) {
+    margin-right:30px
+}
+
+.gallery-photo {
+width: 270px;
+height: 260px;
+}
+
+.crew-name {
+font-weight: 500;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+padding-top: 30px;
+color:var(--black-color);
+}
+
+.member-stand {
+font-weight: 400;
+font-size: 16px;
+line-height: 1.187;
+text-align: center;
+letter-spacing: 0.03em;
+padding: 10px 0 16px;
+color: var(--description-color);
+}
+
+.media {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 16px;
+}
+
+.media-list-icon {
+    display: flex;
+    list-style-type: none;
+}
+
+.media-link {
+    display: flex;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    fill:var(--icon-color);
+    background-color: var(--white-color);
+}
+
+.media-link:hover,
+.media-link:focus {
+    fill:var(--white-color);
+    background-color:var(--main-color)
+
+}
+
+
+.media-icon:hover {
+    fill: var(--white-color);
+}

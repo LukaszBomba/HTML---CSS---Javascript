@@ -1,0 +1,36 @@
+.what-we-do{
+     text-align: center;
+}
+.second-heading {
+    margin-bottom: 50px;
+}
+
+
+.company-work{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.company-work-list {
+    position: relative;
+    overflow: hidden;
+    list-style-type: none;
+    
+}
+
+.company-work-img {
+    width: 370px;
+    height: 294px;
+    
+}
+
+.layer {
+    position: absolute;
+    width: 370px;
+    height: 70px;
+    text-align: center;
+    color: var(--white-color);
+    background: rgba(47, 48, 58, 0.8);
+    bottom: 0;
+    padding: 27px;
+}
