@@ -1,0 +1,26 @@
+.btn-box {
+    display: flex;
+
+}
+
+.button-list {
+    list-style-type: none;
+
+}
+
+.btn-box {
+    justify-content: center;
+    padding: 94px 0 50px;
+}
+
+
+.btn-item {
+    width: 93px;
+    height: 38px;
+    border-radius: 4px;
+    border: none;
+}
+
+.button-list:not(:last-child) {
+    margin-right: 8px;
+}
