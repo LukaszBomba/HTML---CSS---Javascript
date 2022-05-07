@@ -1,0 +1,36 @@
+.icon {
+    margin-right: 10px;
+}
+
+.icon-mail,
+.icon-phone {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    fill:var(--address-color);
+}
+
+.icon-mail:hover,
+.icon-mail:focus,
+.icon-phone:hover,
+.icon-phone:focus,
+.icon:hover,
+.icon:focus {
+    fill: var(--main-color);
+}
+
+.icon-mail {
+    margin-left: 345px;
+}
+
+.icon-phone {
+    margin-left: 30px;
+}
+
+.phone-number,
+.mail-address {
+    color:var(--address-color);
+    display: inline;
+    align-items: center;
+    
+}
