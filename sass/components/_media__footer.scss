@@ -32,12 +32,10 @@
     justify-content: center;
     fill:var(--white-color);
     background-color: var(--media-bgr-footer);
+    &:hover,
+    &:focus {background-color:var(--main-color);}
 }
 
-.link-footer_icon:hover,
-.link-footer_icon:focus {
-    background-color:var(--main-color);
-}
 
 .icon-footer {
     display: flex;

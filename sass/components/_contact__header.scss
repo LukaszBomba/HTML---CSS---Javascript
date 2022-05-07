@@ -1,5 +1,7 @@
 .icon {
     margin-right: 10px;
+    &:hover,
+    &:focus {fill: var(--main-color);}
 }
 
 .icon-mail,
@@ -8,16 +10,10 @@
     align-items: center;
     justify-content: center;
     fill:var(--address-color);
+    &:hover,
+    &:focus {fill: var(--main-color);}
 }
 
-.icon-mail:hover,
-.icon-mail:focus,
-.icon-phone:hover,
-.icon-phone:focus,
-.icon:hover,
-.icon:focus {
-    fill: var(--main-color);
-}
 
 .icon-mail {
     margin-left: 345px;

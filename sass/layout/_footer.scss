@@ -5,7 +5,6 @@
 
 .display-box {
 display: flex;
-
 }
 
 .section-footer {
@@ -31,6 +30,8 @@ font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
 color: var(--white-color);
+&:hover,
+&:focus {color: var(--main-color);}
 }
 
 .contact-link {
@@ -40,23 +41,15 @@ font-size: 14px;
 line-height: 1.714;
 letter-spacing: 0.03em;
 color:var(--address-color);
-}
 
-.map-link:hover,
-.map-link:focus,
-.contact-link:hover,
-.contact-link:focus {
-    color: var(--main-color);
+&:hover,
+&:focus {color: var(--main-color);}
 }
-
 
 .newsletter {
     display:flex;
     padding-top: 72px;
 }
-
-
-
 
 .bottom-logo {
     color: var(--white-color);
