@@ -140,14 +140,7 @@
     color: var(--address-color);
     margin-left: auto;
     margin-right: auto;
-}
-
-.modal-registration-policy-text > a {
-    color: var(--main-color);
-    cursor: pointer;
-}
-
-.modal-registration-policy-text::before {
+    &::before {
     display: inline-flex;
     content: "";
     width: 16px;
@@ -157,7 +150,13 @@
     margin-right: 7px;
     cursor:pointer;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);    
+    }
+}
+
+.modal-registration-policy-text > a {
+    color: var(--main-color);
+    cursor: pointer;
 }
 
 .modal-registration-policy:checked + .modal-registration-policy-text::before {

@@ -67,7 +67,7 @@ body {
   color: var(--black-color);
 }
 
-.navigation {
+.nav {
   display: flex;
 }
 
@@ -585,11 +585,6 @@ body {
   margin-right: auto;
 }
 
-.modal-registration-policy-text > a {
-  color: var(--main-color);
-  cursor: pointer;
-}
-
 .modal-registration-policy-text::before {
   display: inline-flex;
   content: "";
@@ -601,6 +596,11 @@ body {
   cursor: pointer;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.modal-registration-policy-text > a {
+  color: var(--main-color);
+  cursor: pointer;
 }
 
 .modal-registration-policy:checked + .modal-registration-policy-text::before {
