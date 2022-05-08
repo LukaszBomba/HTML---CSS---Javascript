@@ -7,7 +7,7 @@
     border-bottom: 1px solid var(--header-underline-border);
 }
 
-.navigation-logo{
+.logo{
 font-family: var(--secondary-font);
 font-weight: 700;
 font-size: 26px;
@@ -19,45 +19,26 @@ margin-right: 93px;
 padding: 24px 0px 25px;
 }
 
-/* ============ LOGO COLOR IN HEADER =========== */
-
-.header-logo {
-    color: var(--black-color);
-}
-
 .navigation {
     display: flex;
 }
 
-.nav-link:not(:last-child) {
+.nav-list-link:not(:last-child) {
     display: block;
     margin-right: 46px;
 }
 
-.nav-link-item,
-.mail-address {
+.nav-list-item {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.142;
     letter-spacing: 0.02em;
     color: var(--black-color);
-    
-    
+    &:hover,
+    &:focus {
+        color: var(--main-color);
+    }  
 }
-
-
-
-.nav-link-item:hover,
-.nav-link-item:focus,
-.mail-address:hover,
-.mail-address:focus,
-.phone-number:hover,
-.phone-number:focus {
-    color: var(--main-color);
-}
-
-
-
 
 .active {
     display: block;

@@ -9,16 +9,15 @@
     height: 50px;
     background:var(--main-color);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-border-radius: 4px;
+    border-radius: 4px;
     color: var(--white-color);
+    &:hover,
+    &:focus {
+        cursor: pointer;
+    }
 }
 
-.btn-newsletter:hover,
-.btn-newsletter:focus {
-    cursor: pointer;
-}
-
-.icon-send {
+.btn-newsletter-icon {
 fill: var(--white-color);
 margin-left: 24px;
 }

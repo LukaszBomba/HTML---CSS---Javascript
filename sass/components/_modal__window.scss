@@ -29,7 +29,7 @@
 }
 
 
-.close-btn {
+.btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -39,6 +39,9 @@
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    &:hover { cursor:pointer;
+
+    }
 }
 
 .btn-icon {
@@ -47,16 +50,13 @@
     fill: var(--black-color);
 }
 
-.close-btn:hover {
-    cursor:pointer;
-}
 
 .modal-registration {
     display: flex;
   flex-direction: column;
 }
 
-.modal-title {
+.modal-registration-title {
     font-weight: 700;
     font-size: 20px;
     line-height: 23px;
@@ -67,7 +67,7 @@
     margin-bottom: 12px;
 }
 
-.modal-input {
+.modal-registration-input {
     margin-right: 40px;
     margin-bottom: 10px;
     margin-left: 40px;
@@ -77,13 +77,13 @@
     color: #757575;
 }
 
-.modal-label {
+.modal-registration-label {
     position: relative;
     display: block;
     margin-top: 4px;
 }
 
-.modal-content {
+.modal-registration-content {
     width: 100%;
     height: 40px;
     border: 1px solid rgba(33, 33, 33, 0.2);
@@ -91,9 +91,13 @@
     padding-left: 42px;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
     outline: none;
+    &:focus {
+        border-color: #2196F3;
+        outline: none;
+    }
 }
 
-.modal-icon {
+.modal-registration-icon {
     position: absolute;
     top: 50%;
     left: 12px;
@@ -102,7 +106,7 @@
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-comment{
+.modal-registration-comment{
     outline: none;
     width: 100%;
     height: 120px;
@@ -112,16 +116,20 @@
     border-radius: 4px;
     resize: none;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    &:focus {
+        border-color: #2196F3;
+        outline: none;
+    }
 }
 
 
-.modal-form {
+.modal-registration-form {
     display: flex;
     width: 100%;
     flex-direction: column;
 }
 
-.modal-form-policy-text {
+.modal-registration-policy-text {
     display:block;
     justify-content: center;
     align-items: center;
@@ -134,12 +142,12 @@
     margin-right: auto;
 }
 
-.modal-form-policy-text > a {
+.modal-registration-policy-text > a {
     color: var(--main-color);
     cursor: pointer;
 }
 
-.modal-form-policy-text::before {
+.modal-registration-policy-text::before {
     display: inline-flex;
     content: "";
     width: 16px;
@@ -152,7 +160,7 @@
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-form-policy:checked + .modal-form-policy-text::before {
+.modal-registration-policy:checked + .modal-registration-policy-text::before {
     background-color:var(--main-color);
     background-size: contain;
     background-image: url(../Images/check.svg);
@@ -160,7 +168,7 @@
 
 }
 
-.order-btn {
+.modal-submit-btn {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -178,24 +186,19 @@
     margin: 30px 164px 40px 164px;
 }
 
-.order-btn {
+.modal-submit-btn {
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.order-btn:hover,
-.order-btn:focus {
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
+    &:hover,
+    &:focus { box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1),
      0px 1px 2px rgba(0, 0, 0, 0.08),
      0px 2px 2px rgba(0, 0, 0, 0.12);
-    cursor: pointer; }
+    cursor: pointer;
 
-.modal-content:focus,
-.modal-comment:focus{
-    border-color: #2196F3;
-    outline: none;
-  }
+    }
+}
 
-.modal-content:focus + .modal-icon {
+
+.modal-registration-content:focus + .modal-registration-icon {
     fill: var(--main-color);
 }

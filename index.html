@@ -15,34 +15,35 @@
 <body>
     <header class="heading">
       <div class="container">
-        <a class="navigation-logo" href="./index.html">Web<span class="header-logo">Studio</span></a>
+        <a class="logo" href="./index.html">Web<span class="logo-span">Studio</span></a>
        <nav class="navigation">
-           <ul class="nav-list list">
-               <li class="nav-link">
-                   <a class="nav-link-item active link hover-transition" href="index.html">Agencja</a>
+           <ul class="nav-list decoration">
+               <li class="nav-list-link">
+                   <a class="nav-list-item active link hover-transition" href="index.html">Agencja</a>
                 </li>
-               <li class="nav-link">
-                   <a class="nav-link-item link hover-transition" href="portfolio.html">Portfolio</a>
+               <li class="nav-list-link">
+                   <a class="nav-list-item link hover-transition" href="portfolio.html">Portfolio</a>
                 </li>
-               <li class="nav-link">
-                   <a class="nav-link-item link hover-transition" href="#">Kontakt</a>
+               <li class="nav-list-link">
+                   <a class="nav-list-item link hover-transition" href="#">Kontakt</a>
                 </li>
            </ul>
        </nav> 
-       <p class="icon-mail">
+       <p class="mail">
         <a class="mail-address link hover-transition" href="info@devstudio.com">
-              <svg class="icon" width="16px" height="12px">
+              <svg class="mail-icon" width="16px" height="12px">
                <use href="./Images/icon.svg#icon-envelope"></use>
            </svg>
             info@devstudio.com
         </a>
         </p>
-        <p class="icon-phone">
+        <p class="phone">
         <a class="phone-number link hover-transition" href="tel:+48111111111">
-            <svg class="icon" width="10px" height="16px">
+            <svg class="phone-icon" width="10px" height="16px">
                 <use href="./Images/icon.svg#icon-Vector"></use>
             </svg>
-            +48 111 111 111</a>
+            +48 111 111 111
+        </a>
         </p>
       </div>
     </header>
@@ -58,47 +59,47 @@
     <button class="main-button" type="button" data-modal-open>Zamów usługę</button>
     <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button class="close-btn" type="button" data-modal-close>
+            <button class="btn" type="button" data-modal-close>
                 <svg class="btn-icon" width="18px" height="18px">
                     <use href="./Images/icon.svg#icon-close-black-18dp-2-1"></use>
                 </svg>
             </button>
     <form class="modal-registration">
-        <h3 class="modal-title">Zostaw swoje dane w formularzu poniżej</h3>
-        <label class="modal-input">
+        <h3 class="modal-registration-title">Zostaw swoje dane w formularzu poniżej</h3>
+        <label class="modal-registration-input">
             Imię
-            <span class="modal-label">    
-            <input class="modal-content" type="text" name="username"/>
-            <svg class="modal-icon" width="18px" height="18px">
+            <span class="modal-registration-label">    
+            <input class="modal-registration-content" type="text" name="username"/>
+            <svg class="modal-registration-icon" width="18px" height="18px">
                 <use href="./Images/icon.svg#icon-person-black-18dp-1"></use>
             </svg>
             </span>
         </label>
-        <label class="modal-input">
+        <label class="modal-registration-input">
             Telefon
-            <span class="modal-label">
-            <input class="modal-content" type="tel" name="phone_number"/>
-            <svg class="modal-icon" width="18px" height="18px">
+            <span class="modal-registration-label">
+            <input class="modal-registration-content" type="tel" name="phone_number"/>
+            <svg class="modal-registration-icon" width="18px" height="18px">
                 <use href="./Images/icon.svg#icon-phone-black-18dp-1"></use>
             </svg>
             </span>
         </label>
-        <label class="modal-input">
+        <label class="modal-registration-input">
             Email
-            <span class="modal-label">
-            <input class="modal-content" type="email" name="email">
-            <svg class="modal-icon" width="18px" height="18px">
+            <span class="modal-registration-label">
+            <input class="modal-registration-content" type="email" name="email">
+            <svg class="modal-registration-icon" width="18px" height="18px">
                 <use href="./Images/icon.svg#icon-email-black-18dp-1"></use>
             </svg>
             </span>
         </label>
-        <label class="modal-input">
+        <label class="modal-registration-input">
             Komentarz
-            <textarea class="modal-comment" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
+            <textarea class="modal-registration-comment" name="feedback" rows="5" placeholder="Wprowadź tekst"></textarea>
         </label>
-        <form class="modal-form" action="#">
-            <input id="user-policy" class="modal-form-policy visually-hidden " type="checkbox" name="policy" value="accept-policy" >
-        <label for="user-policy" class="modal-form-policy-text">
+        <form class="modal-registration-form" action="#">
+            <input id="user-policy" class="modal-registration-policy visually-hidden " type="checkbox" name="policy" value="accept-policy" >
+        <label for="user-policy" class="modal-registration-policy-text">
             Oświadczam iż akceptuję
              <a href="#">Regulamin</a> 
              i
@@ -106,16 +107,16 @@
         </label>
         </form>
         <label class="modal-submit">
-            <button class="order-btn" type="submit">Wyślij</button>
+            <button class="modal-submit-btn" type="submit">Wyślij</button>
         </label>
         </div>
     </div>
 </div>
 <div class="container">
-    <ul class="description-box">
+    <ul class="description">
         <li class="description-list">
-            <p class="icon-box">
-                <svg class="icon-lorem" width="60px" height="60px">
+            <p class="description-icon-box">
+                <svg class="description-icon-lorem" width="60px" height="60px">
                     <use href="./Images/icon.svg#icon-antenna-1"></use>
                 </svg>
             </p>
@@ -123,8 +124,8 @@
             <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
         </li>
         <li class="description-list">
-            <p class="icon-box">
-                <svg class="icon-lorem" width="60px" height="60px">
+            <p class="description-icon-box">
+                <svg class="description-icon-lorem" width="60px" height="60px">
                     <use href="./Images/icon.svg#icon-clock-1"></use>
                 </svg>
             </p>
@@ -132,8 +133,8 @@
             <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
         </li>
         <li class="description-list">
-            <p class="icon-box">
-                <svg class="icon-lorem" width="60px" height="60px">
+            <p class="description-icon-box">
+                <svg class="description-icon-lorem" width="60px" height="60px">
                     <use href="./Images/icon.svg#icon-diagram-1"></use>
                 </svg>
             </p>
@@ -141,8 +142,8 @@
             <p class="description-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel arcu sem. Sed non sodales dui. Interdum et malesuada</p>
         </li >
         <li class="description-list">
-            <p class="icon-box">
-                <svg class="icon-lorem" width="60px" height="60px">
+            <p class="description-icon-box">
+                <svg class="description-icon-lorem" width="60px" height="60px">
                     <use href="./Images/icon.svg#icon-astronaut-1"></use>
                 </svg>
             </p>
@@ -165,15 +166,15 @@
        <ul class="company-work">
            <li class="company-work-list">
                <img class="company-work-img" src="Images/WhatWeDo1.jpg.jpg" alt="Osoba pisze kod" width="370" height="294">
-                   <p class="layer">Aplikacje komputerowe</p>
+                   <p class="company-work-layer">Aplikacje komputerowe</p>
             </li>
            <li class="company-work-list">
                <img class="company-work-img" src="Images/WhatWeDo2.jpg.jpg" alt="Osoba porównuje smartwona z projektem" width="370" height="294">
-                   <p class="layer">Aplikacje mobilne</p>
+                   <p class="company-work-layer">Aplikacje mobilne</p>
             </li>
            <li class="company-work-list">
                <img class="company-work-img" src="Images/WhatWeDo3.jpg.jpg" alt="Osoba wybiera kolor z palety na tablecie" width="370" height="294">
-                   <p class="layer">Rozwiązania graficzne</p>
+                   <p class="company-work-layer">Rozwiązania graficzne</p>
             </li>
        </ul>
     </div>
@@ -187,32 +188,32 @@
 <h2 class="second-heading">Nasz zespół</h2>
 <ul class="gallery">
     <li class="gallery-list">
-        <img class="gallery-photo" src="Images/img.jpg" alt="John Doe Product Designer" width="260" height="270">
-        <h3 class="crew-name">John Doe</h3>
-        <p class="member-stand">Product Designer</p>
+        <img class="gallery-list-photo" src="Images/img.jpg" alt="John Doe Product Designer" width="260" height="270">
+        <h3 class="gallery-list-crew-name">John Doe</h3>
+        <p class="gallery-list-member-stand">Product Designer</p>
         <ul class="media">
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-instagram-2"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-twitter-1"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-facebook-1"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-linkedin-1"></use>
@@ -222,32 +223,32 @@
         </ul>
     </li>
     <li class="gallery-list">
-        <img class="gallery-photo" src="Images/img-1.jpg" alt="John Doe Frontend Developer" width="260" height="270">
-        <h3 class="crew-name">John Doe</h3>
-        <p class="member-stand">Frontend Developer</p>
+        <img class="gallery-list-photo" src="Images/img-1.jpg" alt="John Doe Frontend Developer" width="260" height="270">
+        <h3 class="gallery-list-crew-name">John Doe</h3>
+        <p class="gallery-list-member-stand">Frontend Developer</p>
         <ul class="media">
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-instagram-2"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-twitter-1"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-facebook-1"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-linkedin-1"></use>
@@ -257,32 +258,32 @@
         </ul>
     </li>
     <li class="gallery-list">
-        <img class="gallery-photo" src="Images/img-2.jpg" alt="John Doe Marketing" width="260" height="270">
-        <h3 class="crew-name">John Doe</h3>
-        <p class="member-stand">Marketing</p>
+        <img class="gallery-list-photo" src="Images/img-2.jpg" alt="John Doe Marketing" width="260" height="270">
+        <h3 class="gallery-list-crew-name">John Doe</h3>
+        <p class="gallery-list-member-stand">Marketing</p>
         <ul class="media">
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-instagram-2"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-twitter-1"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-facebook-1"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-linkedin-1"></use>
@@ -292,32 +293,32 @@
         </ul>
     </li>
     <li class="gallery-list">
-        <img class="gallery-photo" src="Images/img-3.jpg" alt="John Doe UI Designer" width="260" height="270">
-        <h3 class="crew-name">John Doe</h3>
-        <p class="member-stand">UI Designer</p>
+        <img class="gallery-list-photo" src="Images/img-3.jpg" alt="John Doe UI Designer" width="260" height="270">
+        <h3 class="gallery-list-crew-name">John Doe</h3>
+        <p class="gallery-list-member-stand">UI Designer</p>
        <ul class="media">
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-instagram-2"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-twitter-1"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-facebook-1"></use>
                     </svg>
                 </a>
             </li>
-            <li class="media-list-icon">
+            <li class="media-list">
                 <a href="#" class="media-link hover-transition">
                     <svg class="media-icon" width="20px" height="20px">
                         <use href="./Images/icon.svg#icon-linkedin-1"></use>
@@ -384,15 +385,15 @@
         <div class="display-box">
     <section class="section-footer">
     <h3 class="footer-heading">
-    <a class="navigation-logo" href="./index.html">Web<span class="bottom-logo">Studio</span></a>
+    <a class="logo" href="./index.html">Web<span class="bottom-logo">Studio</span></a>
     </h3>
     <address>
-        <ul class="contact-list">
-            <li class="contact-list-item">
-                <a class="map-link hover-transition" href="https://goo.gl/maps/KTg1pb1Rxh6M7XKi7" target="blank"> Warszawa, Aleje Jerozolimskie 21</a></li>
-            <li class="contact-list-item">
+        <ul class="contact">
+            <li class="contact-list">
+                <a class="contact-link-map hover-transition" href="https://goo.gl/maps/KTg1pb1Rxh6M7XKi7" target="blank"> Warszawa, Aleje Jerozolimskie 21</a></li>
+            <li class="contact-list">
                 <a class="contact-link hover-transition" href="mailto:info@example.com">info@example.com</a></li>
-            <li class="contact-list-item">
+            <li class="contact-list">
                 <a class="contact-link hover-transition" href="tel:+48111111111">+48 111 111 111</a></li>
         </ul>
     </address>
@@ -401,29 +402,29 @@
     <h3 class="heading-footer">Dołącz do nas</h3>
     <ul>
         <li class="list-footer">
-            <a href="" class="link-footer_icon hover-transition">
-                <svg class="icon-footer" width="20px" height="20px">
+            <a href="" class="list-footer-link hover-transition">
+                <svg class="list-footer-icon" width="20px" height="20px">
                     <use href="./Images/icon.svg#icon-instagram-2"></use>
                 </svg>
             </a>
         </li>
         <li class="list-footer">
-            <a href="" class="link-footer_icon hover-transition">
-                <svg class="icon-footer" width="20px" height="20px">
+            <a href="" class="list-footer-link hover-transition">
+                <svg class="list-footer-icon" width="20px" height="20px">
                     <use href="./Images/icon.svg#icon-twitter-1"></use>
                 </svg>
             </a>
         </li>
         <li class="list-footer">
-            <a href="" class="link-footer_icon hover-transition">
-                <svg class="icon-footer" width="20px" height="20px">
+            <a href="" class="list-footer-link hover-transition">
+                <svg class="list-footer-icon" width="20px" height="20px">
                     <use href="./Images/icon.svg#icon-facebook-1"></use>
                 </svg>
             </a>
         </li>
         <li class="list-footer">
-            <a href="" class="link-footer_icon hover-transition">
-                <svg class="icon-footer" width="20px" height="20px">
+            <a href="" class="list-footer-link hover-transition">
+                <svg class="list-footer-icon" width="20px" height="20px">
                     <use href="./Images/icon.svg#icon-linkedin-1"></use>
                 </svg>
             </a>
@@ -431,13 +432,13 @@
     </ul>
     </div>
     <form class="newsletter">
-    <label class="title-newsletter">
+    <label class="newsletter-title">
     Zapisz się do newslettera
-        <input class="email-newsletter" type="email" name="email" placeholder="E-mail" />
+        <input class="newsletter-email" type="email" name="email" placeholder="E-mail" />
     </label>
         <button class="btn-newsletter" type="button">
             Zapisz się
-            <svg class="icon-send" width="24px" height="24px">
+            <svg class="btn-newsletter-icon" width="24px" height="24px">
                     <use href="./Images/icon.svg#icon-icon-send"></use>
                 </svg>
         </button>

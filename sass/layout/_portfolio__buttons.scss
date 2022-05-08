@@ -35,10 +35,9 @@ letter-spacing: 0.03em;
 color: var(--black-color);
 background:var(--crew-background);
 padding: 0px;
+&:hover,
+&:focus{
+    background-color: var(--main-color);
+    cursor: pointer;
 }
-
-.btn-item:hover,
-.btn-item:focus {
-background-color: var(--main-color);
-cursor: pointer;
 }

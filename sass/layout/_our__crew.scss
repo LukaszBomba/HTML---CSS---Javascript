@@ -25,12 +25,12 @@ border-radius: 0px 0px 4px 4px;
     margin-right:30px
 }
 
-.gallery-photo {
+.gallery-list-photo {
 width: 270px;
 height: 260px;
 }
 
-.crew-name {
+.gallery-list-crew-name {
 font-weight: 500;
 font-size: 16px;
 line-height: 1.187;
@@ -40,7 +40,7 @@ padding-top: 30px;
 color:var(--black-color);
 }
 
-.member-stand {
+.gallery-list-member-stand {
 font-weight: 400;
 font-size: 16px;
 line-height: 1.187;
@@ -57,7 +57,7 @@ color: var(--description-color);
     padding-top: 16px;
 }
 
-.media-list-icon {
+.media-list {
     display: flex;
     list-style-type: none;
 }
@@ -71,15 +71,12 @@ color: var(--description-color);
     justify-content: center;
     fill:var(--icon-color);
     background-color: var(--white-color);
-}
-
-.media-link:hover,
-.media-link:focus {
-    fill:var(--white-color);
+    &:hover,
+    &:focus {
+        fill:var(--white-color);
     background-color:var(--main-color)
-
+    }
 }
-
 
 .media-icon:hover {
     fill: var(--white-color);

@@ -15,15 +15,15 @@ display: flex;
     margin-bottom: 20px;
 }
 
-.contact-list {
+.contact {
     list-style-type:none;
 }
 
-.contact-list-item:not(:last-child) {
+.contact-list:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.map-link {
+.contact-link-map {
 font-style: normal;
 font-weight: 400;
 font-size: 14px;

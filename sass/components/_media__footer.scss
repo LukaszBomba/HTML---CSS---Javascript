@@ -18,13 +18,16 @@
 }
 
 .list-footer {
-    display: inline-block;
+    display: inline-flex;
     list-style-type: none;
 }
 
+.list-footer:not(:last-child) {
+    margin-right: 10px;
+}
 
-.link-footer_icon {
-    display: flex;
+.list-footer-link {
+    display: inline-flex;
     width: 44px;
     height: 44px;
     border-radius: 50%;
@@ -36,7 +39,6 @@
     &:focus {background-color:var(--main-color);}
 }
 
-
-.icon-footer {
+.list-footer-icon {
     display: flex;
 }

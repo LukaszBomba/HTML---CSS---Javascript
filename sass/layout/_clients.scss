@@ -12,6 +12,10 @@
     width: 170px;
     height: 92px;
     list-style-type: none;
+    &:hover,
+    &:focus {
+        border: 1px solid var(--main-color);
+    }
 }
 
 .client-list:not(:last-child) {
@@ -25,21 +29,17 @@
     fill:var(--icon-color);
     align-items: center;
     justify-content: center;
+    &:hover,
+    &:focus {
+        fill: var(--main-color);
+    }
 }
 
 .client-logo {
     display: flex;
     align-items: center;
-}
-
-.client-list:hover,
-.client-list:focus {
-    border: 1px solid var(--main-color);
-}
-
-.client-logo:hover,
-.client-logo:focus,
-.client-link:hover, 
-.client-link:focus {
-    fill: var(--main-color);
+    &:hover,
+    &:focus {
+        fill: var(--main-color);
+    }
 }
