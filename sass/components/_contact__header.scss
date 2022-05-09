@@ -1,5 +1,5 @@
-.mail-icon,
-.phone-icon {
+.mail__icon,
+.phone__icon {
     margin-right: 10px;
     &:hover,
     &:focus {fill: var(--main-color);}
@@ -24,8 +24,8 @@
     margin-left: 30px;
 }
 
-.phone-number,
-.mail-address {
+.phone__number,
+.mail__address {
     color:var(--address-color);
     display: inline;
     align-items: center;
