@@ -29,7 +29,7 @@
 }
 
 
-.btn {
+.modal__btn {
     position: absolute;
     top: 8px;
     right: 8px;
@@ -44,7 +44,7 @@
     }
 }
 
-.btn-icon {
+.modal__icon {
     position: absolute;
     transform: translate(-50%,-50%);
     fill: var(--black-color);

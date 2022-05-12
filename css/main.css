@@ -829,49 +829,40 @@ body {
   cursor: pointer;
 }
 
-.mail__icon,
-.phone__icon {
+.heading__icon {
   margin-right: 10px;
 }
 
-.mail__icon:hover, .mail__icon:focus,
-.phone__icon:hover,
-.phone__icon:focus {
+.heading__icon:hover, .heading__icon:focus {
   fill: var(--main-color);
 }
 
-.mail,
-.phone {
+.heading__item {
   display: inline-flex;
   align-items: center;
   justify-content: center;
   fill: var(--address-color);
 }
 
-.mail:hover, .mail:focus,
-.phone:hover,
-.phone:focus {
+.heading__item:hover, .heading__item:focus {
   fill: var(--main-color);
 }
 
-.mail {
+.heading__item:not(:last-child) {
   margin-left: 345px;
 }
 
-.phone {
+.heading__item:last-child {
   margin-left: 30px;
 }
 
-.phone__number,
-.mail__address {
+.heading__contact {
   color: var(--address-color);
   display: inline;
   align-items: center;
 }
 
-.phone__number:hover, .phone__number:focus,
-.mail__address:hover,
-.mail__address:focus {
+.heading__contact:hover, .heading__contact:focus {
   color: var(--main-color);
 }
 
