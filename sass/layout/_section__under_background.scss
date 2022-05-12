@@ -5,13 +5,13 @@
     display: flex;
 }
 
-.description-list {
+.description__list {
     padding-right: 30px;
     list-style-type: none;
     width: 270px;
 }
 
-.description-icon-box {
+.description__icon {
     width: 270px;
     height: 120px;
     background-color: var(--background-team);
@@ -23,19 +23,16 @@
     background: var(--crew-background);
 }
 
-.description-name {
-    margin-bottom: 10px;
-}
-
-.description-name{
+.description__name{
 font-weight: 700;
 font-size: 14px;
 line-height: 1.142;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:var(--black-color);
+margin-bottom: 10px;
 }
-.description-text{
+.description__text{
 display: block;
 font-weight: 400;
 font-size: 14px;

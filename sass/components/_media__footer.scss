@@ -1,11 +1,11 @@
-.media-footer {
+.media__footer {
     display: block;
     text-align: center;
     justify-content: center;
     margin-left: 70px;
 }
 
-.heading-footer {
+.media__footer--heading {
     display: flex;
     font-weight: 700;
     font-size: 14px;
@@ -17,16 +17,15 @@
     margin-top: 72px;
 }
 
-.list-footer {
+.list__footer {
     display: inline-flex;
     list-style-type: none;
+    &:not(:last-child) {
+        margin-right: 10px;
+    }
 }
 
-.list-footer:not(:last-child) {
-    margin-right: 10px;
-}
-
-.list-footer-link {
+.list__footer--link{
     display: inline-flex;
     width: 44px;
     height: 44px;
@@ -39,6 +38,6 @@
     &:focus {background-color:var(--main-color);}
 }
 
-.list-footer-icon {
+.list__footer--icon {
     display: flex;
 }

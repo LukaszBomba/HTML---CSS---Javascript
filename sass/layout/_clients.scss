@@ -3,7 +3,7 @@
     display: flex;
 }
 
-.client-list {
+.client__list {
     display:flex;
     justify-content: center;
     border: 1px solid var(--border-clients);
@@ -13,16 +13,11 @@
     height: 92px;
     list-style-type: none;
     &:hover,
-    &:focus {
-        border: 1px solid var(--main-color);
-    }
+    &:focus {border: 1px solid var(--main-color);}
+    &:not(:last-child){margin-right: 30px;}
 }
 
-.client-list:not(:last-child) {
-    margin-right: 30px;
-}
-
-.client-link {
+.client__link {
     width: 170px;
     height: 92px;
     display: flex;
@@ -35,7 +30,7 @@
     }
 }
 
-.client-logo {
+.client__logo {
     display: flex;
     align-items: center;
     &:hover,

@@ -1,40 +1,35 @@
-.contact-box {
+.contact__footer {
     margin-top: 94px;
     background-color:var(--description-color);
 }
 
-.display-box {
+.footer__flex {
 display: flex;
 }
 
-.section-footer {
+.section__links {
     padding: 60px 0 60px;
 }
 
-.footer-heading {
+.footer__heading {
     margin-bottom: 20px;
 }
 
-.contact {
+.contact__list {
     list-style-type:none;
 }
 
-.contact-list:not(:last-child) {
+.contact__link--contact__item {
+color: var(--white-color) !important;
+&:hover,
+&:focus {color: var(--main-color) !important;}
+}
+
+.contact__link:not(:last-child) {
     margin-bottom: 9px;
 }
 
-.contact-link-map {
-font-style: normal;
-font-weight: 400;
-font-size: 14px;
-line-height: 1.714;
-letter-spacing: 0.03em;
-color: var(--white-color);
-&:hover,
-&:focus {color: var(--main-color);}
-}
-
-.contact-link {
+.contact__item {
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
